@@ -26,6 +26,16 @@
 
 @media screen and (max-width: 991px) {
 
+
+
+
+    .sos-new-time{
+        bottom: 4px;
+    }
+
+    .header-email span{
+        margin-left: 4px;
+    }
     .guarantee-wraper + .guarantee-wraper {
         margin-top: 70px;
     }
@@ -109,6 +119,12 @@
 
 @media screen and (max-width: 576px) {
 
+    .courses-rectangle{
+        margin-left: 48%;
+    }
+    .course-rating{
+        justify-content: center;
+    }
     .cours-academe-pnt{
         text-align: center;
     }
