@@ -1,18 +1,23 @@
-@media screen and (min-width: 1200px) {
-    .header-forma-title h3 {
-        font-size: 24px;
-    }
+@media screen and (max-width: 1300px) {
+
+
+
 }
+
+
+
+
 
 
 @media screen and (max-width: 1199px) {
 
 
-    .sos-new-time {
+
+    .sos-new-time{
         bottom: 88px;
     }
 
-    .news-message-time {
+    .news-message-time{
         right: 16px;
     }
 }
@@ -40,6 +45,16 @@
         justify-content: center;
     }
 
+
+
+
+    .sos-new-time{
+        bottom: 4px;
+    }
+
+    .header-email span{
+        margin-left: 4px;
+    }
     .guarantee-wraper + .guarantee-wraper {
         margin-top: 70px;
     }
@@ -52,7 +67,6 @@
         order: 0
     }
 
-    .
     .sos-new-time {
         bottom: 4px;
     }
@@ -139,6 +153,14 @@
         border-radius: 0
     }
     .cours-academe-pnt {
+
+    .courses-rectangle{
+        margin-left: 48%;
+    }
+    .course-rating{
+        justify-content: center;
+    }
+    .cours-academe-pnt{
         text-align: center;
     }
 
