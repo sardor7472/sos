@@ -1,58 +1,78 @@
-@media screen and (max-width: 1300px) {
-
-
-
+@media screen and (min-width: 1200px) {
+    .header-forma-title h3 {
+        font-size: 24px;
+    }
 }
-
-
-
-
 
 
 @media screen and (max-width: 1199px) {
 
 
-
-    .sos-new-time{
+    .sos-new-time {
         bottom: 88px;
     }
 
-    .news-message-time{
+    .news-message-time {
         right: 16px;
     }
 }
 
 
-
 @media screen and (max-width: 991px) {
+    .header-top-submit-link {
+        margin: 0 auto;
+    }
+    .kurs-element-wrap .row {
+        margin: -15px;
+    }
+    .kurs-element-wrap .row>[class*=col-] {
+        padding: 15px;
+    }
+    .kurs-element-wrap + .kurs-element-wrap {
+        margin-top: 0;
+    }
+    .header-forma-title {
+        justify-content: center;
+        border-radius: 10px 10px 0 0 ;
+    }
+
+    .header-top-submit-link {
+        justify-content: center;
+    }
 
     .guarantee-wraper + .guarantee-wraper {
         margin-top: 70px;
     }
 
-    .guarantee-img-wrap{
+    .guarantee-img-wrap {
         order: 1
     }
+
     .guarantee-main {
         order: 0
     }
+
     .
-    .sos-new-time{
+    .sos-new-time {
         bottom: 4px;
     }
 
-    .news-more{
+    .news-more {
         margin-top: 30px;
     }
-    .news-main-des{
+
+    .news-main-des {
         padding: 45px 0;
     }
-    .news-message-img img{
+
+    .news-message-img img {
         width: 100%;
     }
-    .news-time{
+
+    .news-time {
         top: 305px;
     }
+
     .kurses-element {
         margin-top: 20px;
     }
@@ -77,13 +97,14 @@
 @media screen and (max-width: 768px) {
 
 
-
-    .header-logo-images{
+    .header-logo-images {
         text-align: center;
     }
-    .guarantee-number-first{
+
+    .guarantee-number-first {
         font-size: 180px;
     }
+
     .slider-content h1 {
         font-size: 50px;
     }
@@ -108,24 +129,36 @@
 
 
 @media screen and (max-width: 576px) {
-
-    .cours-academe-pnt{
+    .header-forma-title h3 {
+        text-transform: initial;
+    }
+    .main-slider {
         text-align: center;
     }
-    .cours-academe-pnt-table{
+    .header-forma-title {
+        border-radius: 0
+    }
+    .cours-academe-pnt {
+        text-align: center;
+    }
+
+    .cours-academe-pnt-table {
         margin-top: 40px;
     }
-    .course-prace-table h2{
+
+    .course-prace-table h2 {
         text-align: center;
     }
-    .course-prace-table{
+
+    .course-prace-table {
         overflow: auto;
     }
-    .course-prace-table-main{
+
+    .course-prace-table-main {
         min-width: 540px;
     }
 
-    .guarantee-number-first{
+    .guarantee-number-first {
         left: 0;
         top: -25px;
     }
@@ -134,16 +167,19 @@
         margin-top: 30px;
     }
 
-    .sos-new-bottom-text h2{
+    .sos-new-bottom-text h2 {
         text-align: center;
     }
-    .footer-contact-main{
+
+    .footer-contact-main {
         width: 180px;
         margin: 10px auto;
     }
-    .main-slider{
+
+    .main-slider {
         height: 385px;
     }
+
     .slider-content h1 {
         font-size: 40px;
     }
@@ -190,15 +226,16 @@
 @media screen and (max-width: 480px) {
 
 
-
-    .guarantee-text{
+    .guarantee-text {
         padding-left: 0;
         padding-top: 60px;
     }
-    .row+.row {
+
+    .row + .row {
         margin-top: 5px;
     }
-    .guarantee-number-first{
+
+    .guarantee-number-first {
         font-size: 150px;
     }
 
