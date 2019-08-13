@@ -1,0 +1,209 @@
+@media screen and (max-width: 1300px) {
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+
+
+
+    .sos-new-time{
+        bottom: 88px;
+    }
+
+    .news-message-time{
+        right: 16px;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    .guarantee-wraper + .guarantee-wraper {
+        margin-top: 70px;
+    }
+
+    .guarantee-img-wrap{
+        order: 1
+    }
+    .guarantee-main {
+        order: 0
+    }
+    .
+    .sos-new-time{
+        bottom: 4px;
+    }
+
+    .news-more{
+        margin-top: 30px;
+    }
+    .news-main-des{
+        padding: 45px 0;
+    }
+    .news-message-img img{
+        width: 100%;
+    }
+    .news-time{
+        top: 305px;
+    }
+    .kurses-element {
+        margin-top: 20px;
+    }
+
+    .guarantee {
+        padding: 45px 0;
+    }
+
+    .news-main {
+        padding-top: 5px;
+    }
+
+    .news-main-img {
+        margin-top: 20px;
+    }
+
+    .footer-contact-email-orenter {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+    .header-logo-images{
+        text-align: center;
+    }
+    .guarantee-number-first{
+        font-size: 180px;
+    }
+    .slider-content h1 {
+        font-size: 50px;
+    }
+
+    .kurses {
+        padding-top: 45px;
+    }
+
+    .kurses-title {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .news-title {
+        text-align: center;
+    }
+
+    .guarantee-title {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .cours-academe-pnt{
+        text-align: center;
+    }
+    .cours-academe-pnt-table{
+        margin-top: 40px;
+    }
+    .course-prace-table h2{
+        text-align: center;
+    }
+    .course-prace-table{
+        overflow: auto;
+    }
+    .course-prace-table-main{
+        min-width: 540px;
+    }
+
+    .guarantee-number-first{
+        left: 0;
+        top: -25px;
+    }
+
+    .guarantee-wraper + .guarantee-wraper {
+        margin-top: 30px;
+    }
+
+    .sos-new-bottom-text h2{
+        text-align: center;
+    }
+    .footer-contact-main{
+        width: 180px;
+        margin: 10px auto;
+    }
+    .main-slider{
+        height: 385px;
+    }
+    .slider-content h1 {
+        font-size: 40px;
+    }
+
+    .kurs-more {
+        text-align: center;
+    }
+
+    .kurses-img {
+        margin: 0 auto;
+    }
+
+    .kurses-desc {
+        text-align: center;
+    }
+
+    .kurses-item-txt {
+        text-align: center;
+    }
+
+
+    .footer-logo-img {
+        text-align: center;
+    }
+
+    .footer-right-fecbook {
+        text-align: center;
+    }
+
+    .footer-left-text {
+        text-align: center;
+    }
+
+    .footer-right-text {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+
+
+    .guarantee-text{
+        padding-left: 0;
+        padding-top: 60px;
+    }
+    .row+.row {
+        margin-top: 5px;
+    }
+    .guarantee-number-first{
+        font-size: 150px;
+    }
+
+    .slider-content h1 {
+        font-size: 30px;
+    }
+}
+
