@@ -1,13 +1,5 @@
 @media screen and (max-width: 1300px) {
-
-
-
 }
-
-
-
-
-
 
 @media screen and (max-width: 1199px) {
 
@@ -152,7 +144,7 @@
     .header-forma-title {
         border-radius: 0
     }
-    .cours-academe-pnt {
+    .cours-academe-pnt {}
 
     .courses-rectangle{
         margin-left: 48%;

@@ -283,7 +283,7 @@ input[type=text] {
     position: relative;
 }
 
-.main-slider {
+.main-slider-item {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -324,7 +324,7 @@ input[type=text] {
 }
 
 .slider-content {
-    margin-top: 156px;
+    padding-top: 156px;
 }
 
 .owl-dots {
@@ -449,6 +449,10 @@ input[type=text] {
     /*background: rgba(251, 109, 33, 0.3);*/
 }
 
+.kurse-more-link:hover span::before {
+    transform: translate(10px,-50%);
+}
+
 .kurse-more-link span::before {
     content: '';
     width: 17px;
@@ -457,9 +461,8 @@ input[type=text] {
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
-    background: url('../img/kurse-more.png');
-    background-repeat: no-repeat;
-    background-position: center center;
+    transition: 0.3s;
+    background: url('../img/kurse-more.png') no-repeat center center;
 }
 
 /*.kurse-more-img::after {*/
@@ -661,10 +664,15 @@ input[type=text] {
     display: inline-block;
     border-radius: 50%;
     height: 37px;
+    width: 37px;
+    background: #4d87a9;
 }
 
 .footre-fecbook a {
-    display: inline-block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footre-fecbook li:hover {
@@ -1069,12 +1077,22 @@ input[type=text] {
     color: #fff;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    /**************** cours.html end **************/
 }
 
-/*.course-rating li.active ~ li svg polygon{*/
-/*    fill: #ffcf5c;*/
 
-/*}*/
+/*loading */
 
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,83,132,.71);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-/**************** cours.html end **************/

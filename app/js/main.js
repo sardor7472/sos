@@ -1,5 +1,15 @@
-new WOW().init();
+
 $('document').ready(function () {
+setTimeout(function () {
+    $('.loading').fadeOut();
+    try {
+        new WOW().init();
+    }catch (e) {
+    }
+}, 500)
+
+
+
     var mainSlider = $('.main-slider')
     mainSlider.owlCarousel({
         loop: false,
@@ -23,10 +33,8 @@ $('document').ready(function () {
 
 
     function owl_carousel_page_numbers(e) {
-        var items_per_page = e.page.size;
         var display_text = (e.item.index + 1);
-        $('.main-slider-count').html('<span style="margin-right:5px; color: #ffb500; font-size: 60px">' + display_text + '</span>' + '/' + '<span style="font-size: 36px; margin-left: 5px;">' + e.item.count + '</span>');
-
+        $('.main-slider-count').html('<span style="margin-right:5px; color: #ffb500; font-size: 60px">' + display_text + '</span>' + '/' + '<span style="font-size: 36px; margin-left: 5px;">' + e.item.count + '</span>')
     }
 
 
@@ -63,7 +71,6 @@ $('document').ready(function () {
 
             }
         }
-        ;
         $('.course-rating').html(list)
     }
 
